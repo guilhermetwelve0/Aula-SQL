@@ -1,5 +1,5 @@
 ###Alguns comentarios
-```
+´´´
 create database Db_bento1 -- cria um banco de dados
 use Db_bento1 -- seleciona banco de dados para uso
 -- criação das tabelas
@@ -102,4 +102,4 @@ select * from professor --mostra o conteudo da tabela
 SELECT pro.nome_prof,dis.nome_dis FROM professor pro
 inner join disciplina dis
 on pro.fk_disciplina_id_dis = dis.id_dis
-```
+´´´
